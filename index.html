@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae</title>
+</head>
+<body>
+    <section>
+        <h1><em>Curriculum Vitae</em></h1>
+        <br>
+        <picture>
+          <img src="./assets/images/profile.jpg">
+        </picture>
+        <h2>Thormes Filgueira Leite Pereira</h2>
+        <p><strong>Endereço:</strong> Rua Odilon Figueiredo, n. 151, Juazeiro do Norte/CE.</p>
+        <p><strong>Telefone:</strong> (88) 99710-3002</p>
+        <p><strong>E-mail:</strong> <a href="mailto:thormes@gmail.com">thormes@gmail.com</a></p>
+        <hr>
+    </section>
+    <section>
+        <h3>Sobre:</h3>
+        <p>Advogado, com extensa atuação na área previdenciária, sempre tive grande curiosidade para assuntos tecnológicos,
+            tendo utilizado computadores desde 1994. Aprendi programação como hobby para auxiliar nas volumosas atividades
+            jurídicas. Atualmente sou estudante de Sistemas de Informação com vistas a aprofundar o conhecimento adquirido
+            de forma desorientada.</p>
+        <hr>
+    </section>
+    <section>
+        <h3>Formação Acadêmica:</h3>
+        <ul>
+            <li>Graduado em direito pela URCA (Universidade Regional do Cariri), no ano de 2002.</li>
+          <li>Pós-Graduado <em>lato sensu</em> em Direito Público pela UnB (Universidade de Brasília), com especialização em Direito
+                Previdenciário, concluída no ano de 2010.</li>
+            <li>Pós Graduando em Jurimetria pela faculdade Unileya, com conclusão prevista em 09/2023.</li>
+            <li>Graduando do curso de Sistemas de Inforamção no Centro Universitário Paraíso, com previsão de conclusão em
+                12/2026.</li>
+        </ul>
+        <hr>
+    </section>
+    <section>
+        <h3>Experiência Profissional:</h3>
+        <ul>
+            <li>Procurador Federal, na Advocacia-Geral da União (Desde 2005)</li>
+            <li>Professor de módulo de pós-graduação em Direito Previdenciário, na URCA (Universidade Regional do Cariri)
+                (2011)</li>
+            <li>Chefe da Procuradoria Seccional Federal em Juazeiro do Norte (2013 - 2020)</li>
+            <li>Professor de módulos de pós-graduação em Direito Previdenciário, na FAP (Faculdade Paraíso) (2014)</li>
+            <li>Professor de módulo de pós-graduação em Direito Previdenciário, na Unileão (Centro Universitário Leão
+                Sampaio) (2019)</li>
+            <li>Membro do grupo de trabalho PGF/TEC-LABS da Procuradoria-Geral Federal (Desde 2020)</li>
+        </ul>
+        <hr>
+    </section>
+    <section>
+
+        <h3>Solicite um Orçamento:</h3>
+        <form>
+            <label for="field_name">Nome Completo:</label>
+            <input type="text" name="field_name" id="field_name" placeholder="Insira seu Nome Completo">
+            <br>
+    
+            <label for="field_email">E-mail:</label>
+            <input type="text" name="field_email" id="field_email" placeholder="Insira seu Email para contato">
+            <br>
+    
+            <label for="field_telefone">Telefone:</label>
+            <input type="tel" name="field_telefone" id="field_telefone" placeholder="Insira seu telefone para contato">
+            <br>
+    
+            <label for="field_endereco">Endereço:</label>
+            <input type="text" name="field_endereco" id="field_endereco" placeholder="Insira seu Endereço">
+            <br>
+    
+            <label for="field_municipio">Municipio:</label>
+            <input type="text" name="field_municipio" id="field_municipio" placeholder="Município de Residência">
+    
+            <label for="field_estado">Estado:</label>
+            <select name="field_estado" id="field_estado">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE" selected>Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <option value="EX">Estrangeiro</option>
+            </select>
+            <br>
+            <label for="field_ramo_direito">Ramo do Direito:</label>
+            <select id="field_ramo_direito" name="field_ramo_direito">
+                <option value="Civil">Direito Civil</option>
+                <option value="Criminal">Direito Criminal</option>
+                <option value="Empresarial">Direito Empresarial</option>
+                <option value="Previdenciario" selected>Direito Previdenciário</option>
+                <option value="Trabalhista">Direito Trabalhista</option>
+                <option value="Tributario">Direito Tributário</option>
+            </select>
+            <br>
+            <label for="field_descricao">Descrição do problema:</label><br>
+            <textarea id="field_descricao" cols="50" rows="10"></textarea>
+            <br>
+            <p>Caso tenha recebido alguma notificação judicial para a qual deseje consultoria, envie-nos o documento, preferencialmente em PDF.
+                <input type="file">
+            </p>
+    
+            <span>Melhor horário para retornar contato:</span><br>
+            
+            <input type="radio" name="radio_horario" id="radio_horario_1" checked>
+            <label for="radio_horario_1">Manhã</label>
+            
+            <input type="radio" name="radio_horario" id="radio_horario_1">
+            <label for="radio_horario_2">Tarde</label>
+            
+            <input type="radio" name="radio_horario" id="radio_horario_1">
+            <label for="radio_horario_3">Horário Comercial</label>
+            <br>
+    
+            <input type="checkbox" id="aceite_termos">
+            <label for="aceite_termos">Declaro que aceito o envio de dados para solicitação de orçamento</label>
+            <br>
+    
+            <button>Solicitar Orçamento</button>
+        </form>
+    </section>
+</body>
+</html>
